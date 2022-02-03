@@ -37,6 +37,7 @@ public class Main {
         if (scannedValue.isEmpty()) {
             throw new EmptyException();
         }
+
         String[] parts = scannedValue.split(" ");
         return new HashSet<>(Arrays.asList(parts));
     }
